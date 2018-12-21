@@ -1,0 +1,8 @@
+{
+    "remote_origins": {
+        "blog": "https://www.phoenixpeca.xyz/"
+    },
+    "cache_lifespan_seconds": 18000,
+    "max_remote_bytes": 52428800,
+    "byte_counter": 1000
+}
