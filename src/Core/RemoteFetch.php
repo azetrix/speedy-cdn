@@ -62,7 +62,7 @@ class RemoteFetch
         }
 
         ErrorHandler::InterruptProcess(
-            false && (empty($matches) && $headers['status_code'] != 404),
+            (empty($matches) && $headers['status_code'] != 404),
             400,
             [
                 'context' => 'speedy-cdn',

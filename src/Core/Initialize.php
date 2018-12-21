@@ -19,7 +19,7 @@ class Initialize
         $remote_origin_fetch = RemoteFetch::Origin($cache_fetch);
 
         $caching_layer = Fresco::CacheData($remote_origin_fetch, $config_load);
-        
+
         return $caching_layer;
     }
 
