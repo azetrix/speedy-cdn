@@ -1,5 +1,5 @@
 {
-    "remote_origins": {
+    "remote_origin": {
         "blog": "https://www.phoenixpeca.xyz/"
     },
     "cache_lifespan_seconds": 18000,

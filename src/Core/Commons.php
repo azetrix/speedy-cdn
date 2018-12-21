@@ -8,11 +8,11 @@ class Commons
     public static function RemoteRequestURL(array $remote_id, object $config_data) {
         if (!isset($remote_id['remote_host_id'])) {
             $remote_request_uri = $remote_id['remote_request_uri'];
-            $remote_host = $config_data->remote_origins;
+            $remote_host = $config_data->remote_origin;
         } else {
             $remote_host_id = $remote_id['remote_host_id'];
             $remote_request_uri = $remote_id['remote_request_uri'];
-            $remote_host = $config_data->remote_origins->$remote_host_id;
+            $remote_host = $config_data->remote_origin->$remote_host_id;
         }
 
         return $remote_host.$remote_request_uri;

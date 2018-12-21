@@ -9,7 +9,7 @@ class Route
     const DEDICATED_CDN_URI_PARSER = '/^(?:\/*)([^\/].*)?$/mU';
 
     public static function RemoteID(object $config_data) {
-        if (is_string($config_data->remote_origins)) {
+        if (is_string($config_data->remote_origin)) {
             preg_match_all(self::DEDICATED_CDN_URI_PARSER, $_SERVER['REQUEST_URI'], $matches);
 
             $matches = array_filter($matches);
@@ -38,7 +38,7 @@ class Route
             );
 
             ErrorHandler::InterruptProcess(
-                !isset($config_data->remote_origins->$match_first),
+                !isset($config_data->remote_origin->$match_first),
                 404,
                 [
                     'context' => 'speedy-cdn',
