@@ -30,8 +30,9 @@ $ git clone https://github.com/azetrix/speedy-cdn.git
 ```
 
 ## Usage
-1. Rename `config.sample.php` to `config.php`
-2. Edit `config.php` to your heart's desire
+1. Rename `config.sample.json` to `config.json`.
+2. Edit `config.json` to your heart's desire.
+4. Make sure Speedy directory is writable.
 3. Deploy!
 
 ## CDN Structure
