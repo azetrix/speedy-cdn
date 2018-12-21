@@ -1,5 +1,5 @@
 # Speedy CDN
-**_the cdn without any fuss._**
+**_relieve tension on your servers, trust the statics to speedy_**
 
 Speedy is a self-hosted CDN web application.
 
