@@ -1,8 +1,7 @@
 {
-    "remote_origin": {
-        "blog": "https://www.phoenixpeca.xyz/"
-    },
+    "remote_origin": "https://remote.origin.com/",
     "cache_lifespan_seconds": 18000,
     "max_remote_bytes": 52428800,
-    "byte_counter": 1000
+    "byte_counter": 1000,
+    "api_uri": "/api"
 }
