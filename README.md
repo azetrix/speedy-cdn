@@ -5,6 +5,8 @@ Speedy is a self-hosted CDN web application.
 
 Stop worrying about your website not being able to handle thousands of concurrent connections because Speedy can free most of it for you.
 
+Note: Hosting Speedy in the same server as it's remote origin defeats the whole purpose of the CDN thing.
+
 ## Installation
 ```console
 $ cd /var/www
