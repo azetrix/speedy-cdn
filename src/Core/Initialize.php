@@ -5,9 +5,7 @@ namespace Core;
 class Initialize
 {
 
-    public function __construct() {
-        $config_load = Config::Load();
-
+    public function __construct(object $config_load) {
         $remote_origin_id = Route::RemoteID($config_load);
 
         $self_filter = SelfFilter::Origin($remote_origin_id, $config_load);

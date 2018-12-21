@@ -2,6 +2,5 @@
     "remote_origin": "https://www.origin.com/",
     "cache_lifespan_seconds": 18000,
     "max_remote_bytes": 52428800,
-    "byte_counter": 1000,
-    "api_uri": "/api"
+    "byte_counter": 1000
 }

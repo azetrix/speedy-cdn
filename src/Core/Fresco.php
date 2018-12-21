@@ -12,6 +12,7 @@ class Fresco
         $meta_signature = $cache_directory.'/meta/'.$cache_signature;
         $data_signature = $cache_directory.'/data/'.$cache_signature;
 
+        $cache_meta = new \stdClass();
         $cache_meta->origin = $remote_data['origin'];
         $cache_meta->headers = $remote_data['headers'];
         $cache_meta->timestamp = $remote_data['timestamp'];

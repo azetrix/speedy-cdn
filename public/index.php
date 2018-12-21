@@ -2,4 +2,6 @@
 
 require('../src/autoload.php');
 
-new Core\Initialize();
+$config_load = Core\Config::Load('../config.json');
+
+new Core\Initialize($config_load);
