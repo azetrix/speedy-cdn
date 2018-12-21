@@ -36,7 +36,7 @@ $ git clone https://github.com/azetrix/speedy-cdn.git
 
 ## CDN Structure
 ```
-https://speedy.example.com/{remote_origin}/assets/img/logo.png    ->    https://remote.origin.com/assets/img/logo.png
+https://speedy.example.com/{remote_origin}/assets/img/logo.png   ->   https://remote.origin.com/assets/img/logo.png
 ```
 
 ## Supported MIME Types
